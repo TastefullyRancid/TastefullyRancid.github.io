@@ -11,31 +11,50 @@ body {
 }
 
 .header{
-  background-color: #ff00cc;
-  border: 10px solid #ff6633;
-  border-style: ridge;
+  background: rgba(255, 0, 204, 0.5);
+  border-bottom: 10px ridge #ff6633;
   border-radius: 20px;
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .exp-header{
- border-bottom: 10px ridge #ff6633;
+ background: rgba(255, 0, 153, 0.3);
+ border-top: 10px ridge #ff6633;
  border-radius: 20px;
- padding-top: 10px;
+ padding-bottom: 5px;
  
 }
 
 .edu-header{
+ background: rgba(255, 0, 51, 0.5);
+ border-top: 10px ridge #ff6633;
+ border-radius: 20px;
+ padding-bottom:5px;
+}
+
+.workexp{
+ background: rgba(255, 0, 102, 0.5);
  border-bottom: 10px ridge #ff6633;
  border-radius: 20px;
- padding-top: 30px;
+ border-bottom: 10px ridge #ff6633;
+ border-radius: 20px;
+ padding-left: 10px;
+ padding-top: 5px;
+}
+
+.eduexp{
+ background: rgba(204, 0, 51, 0.5);
+ border-bottom: 10px ridge #ff6633;
+ border-radius: 20px;
+ border-bottom: 10px ridge #ff6633;
+ border-radius: 20px;
+ padding-left: 10px;
+ padding-top: 5px;
 }
 
 h1{
+  text-decoration: underline;
   text-align: center;
-  font-style: oblique;
-  font-size: 50px;
   color: white;
   text-shadow: 2px 2px black
 }
@@ -44,4 +63,21 @@ h2{
   text-decoration: underline;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px black;
+}
+
+h3{
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+h4{
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+h5{
+ color: white;
+ text-shadow: 2px 2px black;
+ padding-right:10px;
 }
