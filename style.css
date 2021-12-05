@@ -16,6 +16,8 @@ body {
   border-bottom: 10px ridge #ff6633;
   border-radius: 20px;
   text-align: center;
+  color: white;
+  text-shadow: 2px 2px black
 }
 
 .exp-header{
@@ -41,6 +43,7 @@ body {
  border-radius: 20px;
  padding-left: 10px;
  padding-top: 5px;
+ padding-right:10px;
 }
 
 .eduexp{
@@ -54,13 +57,11 @@ body {
 }
 
 h1{
-  text-decoration: underline;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px black
+font-size:45px;
 }
 
 h2{
+  font-size: 25px;
   text-decoration: underline;
   text-align: center;
   color: white;
@@ -69,6 +70,7 @@ h2{
 
 h3{
   color: white;
+  text-decoration: underline;
   text-shadow: 2px 2px black;
 }
 
