@@ -12,6 +12,7 @@ body {
 
 .header{
   background: rgba(255, 0, 204, 0.5);
+  border-top: 10px ridge #ff6633;
   border-bottom: 10px ridge #ff6633;
   border-radius: 20px;
   text-align: center;
